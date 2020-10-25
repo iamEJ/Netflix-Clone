@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Enjoy on your TV.",
+    "subTitle": "Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.",
+    "image": "https://i2.wp.com/tvrev.com/wp-content/uploads/2020/02/thibault-penin-AWOl7qqsffM-unsplash-scaled.jpg?fit=2560%2C1709&ssl=1",
+    "alt": "Tiger King on Netflix",
+    "direction": "row"
+  },
+  {
+    "id": 2,
+    "title": "Download your programmes to watch on the go.",
+    "subTitle": "Save your data and watch all your favourites offline.",
+    "image": "https://i2.wp.com/ausdroid.net/wp-content/uploads/2019/02/netflixstreaming-e1550638744737.png?fit=864%2C665&ssl=1",
+    "alt": "Watch on mobile",
+    "direction": "row-reverse"
+  },
+  {
+    "id": 3,
+    "title": "Watch everywhere.",
+    "subTitle": "Stream unlimited films and TV programmes on your phone, tablet, laptop and TV without paying more.",
+    "image": "https://i0.wp.com/www.globalvillagespace.com/wp-content/uploads/2020/05/Money-Heist-creator-launches-all-new-Netflix-Show-696x365.jpg",
+    "alt": "Money Heist on Netflix",
+    "direction": "row"
+  }
+]
