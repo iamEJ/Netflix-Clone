@@ -1,8 +1,6 @@
 import styled from "styled-components/macro";
 
 export const Container = styled.div`
-  max-width: 1000px;
-  margin: auto;
   display: flex;
   flex-direction: column;
   border-bottom: 8px solid #222;
