@@ -26,7 +26,7 @@ export default function SignUp() {
         result.user
           .updateProfile({
             displayName: username,
-            photoUrl:
+            photoURL:
               "https://www.behance.net/gallery/33850498/Netflix-Profile-Avatars",
           })
           .then(() => history.push(ROUTES.BROWSE))
