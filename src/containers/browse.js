@@ -11,6 +11,7 @@ export function BrowseContainer() {
   const user = firebaseApp.auth().currentUser || {};
   const [profile, setProfile] = useState({});
   const [loading, setLoading] = useState(true);
+  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     console.log(profile);
@@ -34,6 +35,10 @@ export function BrowseContainer() {
             <Header.TextLink>Films</Header.TextLink>
           </Header.Group>
           <Header.Group>
+            <Header.Search
+              searchTerm={searchTerm}
+              setSearchTerm={setSearchTerm}
+            />
             <Header.Profile>
               <Header.Picture src={user.photoURL} />
               <Header.Dropdown>
@@ -61,6 +66,7 @@ export function BrowseContainer() {
             spiral of revolution and bloody crime. This path brings him
             face-to-face with his alter-ego: the Joker.
           </Header.Text>
+          <Header.PlayButton>Play</Header.PlayButton>
         </Header.Feature>
       </Header>
     </>

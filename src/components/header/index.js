@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Background,
   Container,
@@ -12,8 +12,12 @@ import {
   Picture,
   Profile,
   Dropdown,
+  Search,
+  SearchInput,
+  PlayButton,
 } from "./style/header";
 import { Link as ReactRouterLink } from "react-router-dom";
+import SearchIcon from "@material-ui/icons/Search";
 
 export default function Header({ bg = true, children, ...restProps }) {
   return bg ? <Background {...restProps}>{children}</Background> : children;
@@ -45,6 +49,31 @@ Header.Profile = function HeaderProfile({ children, ...restProps }) {
 
 Header.Dropdown = function HeaderDropdown({ children, ...restProps }) {
   return <Dropdown {...restProps}>{children}</Dropdown>;
+};
+
+Header.Search = function HeaderSearch({
+  searchTerm,
+  setSearchTerm,
+  ...restProps
+}) {
+  const [searchActive, setSearchActive] = useState(false);
+  return (
+    <Search {...restProps}>
+      <SearchIcon
+        onClick={() => setSearchActive((searchActive) => !searchActive)}
+      />
+      <SearchInput
+        value={searchTerm}
+        onChange={({ target }) => setSearchTerm(target.value)}
+        placeholder="Search films and series"
+        active={searchActive}
+      />
+    </Search>
+  );
+};
+
+Header.PlayButton = function HeaderPlayButton({ children, ...restProps }) {
+  return <PlayButton {...restProps}>{children} </PlayButton>;
 };
 
 Header.Picture = function HeaderPicture({ src, ...restProps }) {
