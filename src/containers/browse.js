@@ -8,6 +8,7 @@ import { auth } from "../lib/firebase.prod";
 import Card from "../components/card";
 import { FooterContainer } from "./footer";
 import Player from "../components/player";
+import Fuse from "fuse.js";
 
 export function BrowseContainer({ slides }) {
   const { firebaseApp } = useContext(FirebaseContext);
@@ -29,6 +30,18 @@ export function BrowseContainer({ slides }) {
     setSlideRows(slides[category]);
     console.log(slides[category]);
   }, [slides, category]);
+
+  useEffect(() => {
+    const fuse = new Fuse(slideRows, {
+      keys: ["data.description", "data.title", "data.genre"],
+    });
+    const result = fuse.search(searchTerm).map(({ item }) => item);
+    if (slideRows.length > 0 && searchTerm.length > 3 && result.length > 0) {
+      setSlideRows(result);
+    } else {
+      setSlideRows(slides[category]);
+    }
+  }, [searchTerm]);
 
   return profile.displayName ? (
     <>
