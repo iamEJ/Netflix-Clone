@@ -7,6 +7,7 @@ import * as ROUTES from "../constants/routes";
 import { auth } from "../lib/firebase.prod";
 import Card from "../components/card";
 import { FooterContainer } from "./footer";
+import Player from "../components/player";
 
 export function BrowseContainer({ slides }) {
   const { firebaseApp } = useContext(FirebaseContext);
@@ -104,10 +105,10 @@ export function BrowseContainer({ slides }) {
               ))}
             </Card.Entities>
             <Card.Feature category={category}>
-              {/* <Player>
+              <Player>
                 <Player.Button />
-                <Player.Video src="https://www.youtube.com/watch?v=-_DJEzZk2pc" />
-              </Player> */}
+                <Player.Video src="/videos/bunny.mp4" />
+              </Player>
             </Card.Feature>
           </Card>
         ))}
