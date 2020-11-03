@@ -12,10 +12,11 @@ import {
   Feature,
   FeatureTitle,
   FeatureText,
-  FeatureClosed,
+  FeatureClose,
   Maturity,
   Content,
 } from "./style/card";
+import CloseIcon from "@material-ui/icons/Close";
 
 export const FeatureContext = createContext();
 
@@ -61,7 +62,10 @@ Card.Item = function CardItem({ item, children, ...restProps }) {
 
   return (
     <Item
-      onClick={(() => setItemFeature(item), setShowFeature(true))}
+      onClick={() => {
+        setItemFeature(item);
+        setShowFeature(true);
+      }}
       {...restProps}
     >
       {children}
@@ -71,4 +75,31 @@ Card.Item = function CardItem({ item, children, ...restProps }) {
 
 Card.Image = function CardImage({ ...restProps }) {
   return <Image {...restProps} />;
+};
+
+Card.Feature = function CardFeature({ children, category, ...restProps }) {
+  const { setShowFeature, showFeature, itemFeature } = useContext(
+    FeatureContext
+  );
+  return showFeature ? (
+    <Feature {...restProps} src={itemFeature.image}>
+      <Content>
+        <FeatureTitle>{itemFeature.title}</FeatureTitle>
+        <FeatureText>{itemFeature.description}</FeatureText>
+        <FeatureClose onClick={() => setShowFeature(false)}>
+          <CloseIcon />
+        </FeatureClose>
+        <Group margin="30px 0" flexDirection="row" alignItems="center">
+          <Maturity rating={itemFeature.maturity}>
+            {itemFeature.maturity < 12 ? "PG" : itemFeature.maturity}
+          </Maturity>
+          <FeatureText>
+            {itemFeature.genre.charAt(0).toUpperCase() +
+              itemFeature.genre.slice(1)}
+          </FeatureText>
+        </Group>
+        {children}
+      </Content>
+    </Feature>
+  ) : null;
 };

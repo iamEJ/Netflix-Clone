@@ -1,31 +1,194 @@
 import styled from "styled-components/macro";
 
-export const Container = styled.div``;
+export const Title = styled.p`
+  font-size: 24px;
+  color: #e5e5e5;
+  font-weight: bold;
+  margin-left: 56px;
+  margin-right: 56px;
+  margin-top: 0;
+  padding-bottom: 20px;
+`;
 
-export const Group = styled.div``;
+export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  box-sizing: border-box;
 
-export const Title = styled.p``;
+  > ${Title} {
+    @media (max-width: 1000px) {
+      margin-left: 30px;
+    }
 
-export const SubTitle = styled.p``;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+`;
 
-export const Text = styled.p``;
+export const Group = styled.div`
+  display: flex;
+  flex-direction: ${({ flexDirection }) =>
+    flexDirection === "row" ? "row" : "column"};
+  ${({ alignItems }) => alignItems && `align-items: ${alignItems}`};
+  ${({ margin }) => margin && `margin: ${margin}`};
 
-export const Feature = styled.div``;
+  > ${Container}:first-of-type {
+    @media (min-width: 1100px) {
+      margin-top: -150px;
+    }
+  }
+`;
 
-export const FeatureText = styled.p``;
+export const SubTitle = styled.p`
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  user-select: none;
+  display: none;
+`;
 
-export const FeatureTitle = styled(Title)``;
+export const Text = styled.p`
+  margin-top: 5px;
+  font-size: 10px;
+  color: #fff;
+  margin-bottom: 0;
+  user-select: none;
+  display: none;
+  line-height: normal;
+`;
 
-export const FeatureClose = styled.button``;
+export const FeatureText = styled.p`
+  font-size: 18px;
+  color: #fff;
+  font-weight: ${({ fontWeight }) =>
+    fontWeight === "bold" ? "bold" : "normal"};
+  margin: 0;
 
-export const Maturity = styled.div``;
+  @media (max-width: 600px) {
+    line-height: 22px;
+  }
+`;
 
-export const Content = styled.div``;
+export const Feature = styled.div`
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),
+    url(${({ src }) => src});
+  background-size: cover;
+  position: relative;
+  height: 400px;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-color: #000;
 
-export const Meta = styled.div``;
+  @media (max-width: 1000px) {
+    $(Title) {
+      font-size: 20px;
+      line-height: 20px;
+      margin-bottom: 10px;
+    }
+    $(FeatureText) {
+      font-size: 14px;
+    }
+  }
+`;
 
-export const Entities = styled.div``;
+export const FeatureTitle = styled(Title)`
+  margin-left: 0;
+`;
 
-export const Item = styled.div``;
+export const FeatureClose = styled.button`
+  color: #fff;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  background: none;
+  border: 0;
+`;
 
-export const Image = styled.img``;
+export const Maturity = styled.div`
+  background-color: ${({ rating }) => (rating >= 15 ? "red" : "green")};
+  border-radius: 15px;
+  width: 20px;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgbs(0, 0, 0, 0.2);
+  margin-right: 10px;
+  font-size: 12px;
+`;
+
+export const Content = styled.div`
+  margin: 56px;
+  max-width: 500px;
+  line-height: normal;
+
+  @media (max-width: 1000px) {
+    margin: 30px;
+    max-width: none;
+  }
+`;
+
+export const Meta = styled.div`
+  display: none;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  background-color: #0000008f;
+`;
+
+export const Entities = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
+
+export const Item = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: scale(1.3);
+    z-index: 99;
+  }
+
+  @media (min-width: 1200px) {
+    &:hover ${Meta}, &:hover ${Text}, &:hover ${SubTitle} {
+      display: block;
+      z-index: 100;
+    }
+  }
+
+  &:first-of-type {
+    margin-left: 56px;
+
+    @media (max-width: 1000px) {
+      margin-left: 30px;
+    }
+  }
+
+  &:last-of-type {
+    margin-right: 56px;
+
+    @media (max-width: 1000px) {
+      margin-right: 30px;
+    }
+  }
+`;
+
+export const Image = styled.img`
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+`;

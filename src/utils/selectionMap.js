@@ -2,8 +2,8 @@ export default function selectionMap({ series, films }) {
   return {
     series: [
       {
-        title: "Documentary",
-        data: series?.filter((item) => item.genre === "documentaries"),
+        title: "Action",
+        data: series?.filter((item) => item.genre === "action"),
       },
       {
         title: "Comedy",
@@ -18,8 +18,8 @@ export default function selectionMap({ series, films }) {
         data: series?.filter((item) => item.genre === "crime"),
       },
       {
-        title: "Feel Good",
-        data: series?.filter((item) => item.genre === "feel-good"),
+        title: "Romance",
+        data: series?.filter((item) => item.genre === "romance"),
       },
     ],
     films: [
