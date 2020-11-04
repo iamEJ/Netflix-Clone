@@ -87,7 +87,7 @@ Card.Feature = function CardFeature({ children, category, ...restProps }) {
         <FeatureTitle>{itemFeature.title}</FeatureTitle>
         <FeatureText>{itemFeature.description}</FeatureText>
         <FeatureClose onClick={() => setShowFeature(false)}>
-          <CloseIcon />
+          <CloseIcon alt="Close" />
         </FeatureClose>
         <Group margin="30px 0" flexDirection="row" alignItems="center">
           <Maturity rating={itemFeature.maturity}>

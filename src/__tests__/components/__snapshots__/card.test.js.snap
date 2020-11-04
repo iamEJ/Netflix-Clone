@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> renders <Card /> and toggles card feature 1`] = `
+<div
+  class="card__Group-sc-29grb9-2 jXGfoc"
+>
+  <div
+    class="card__Container-sc-29grb9-1 kezBSj"
+  >
+    <p
+      class="card__Title-sc-29grb9-0 jwinrX"
+    >
+      Comedy
+    </p>
+    <div
+      class="card__Entities-sc-29grb9-12 kkpZCO"
+    >
+      <div
+        class="card__Item-sc-29grb9-13 kjzviD"
+        data-testid="the-office-item-feature"
+      >
+        <img
+          class="card__Image-sc-29grb9-14 bERlgv"
+        />
+        <div
+          class="card__Meta-sc-29grb9-11 bQUeoW"
+        >
+          <p
+            class="card__SubTitle-sc-29grb9-3 knpugP"
+          >
+            The Office
+          </p>
+          <p
+            class="card__Text-sc-29grb9-4 byIjVO"
+          >
+            A motley group of office workers go through hilarious misadventures at the Scranton, Pennsylvania, branch of the Dunder Mifflin Paper Company.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card__Feature-sc-29grb9-6 dHzfGw"
+    >
+      <div
+        class="card__Content-sc-29grb9-10 fMvTeq"
+      >
+        <p
+          class="card__Title-sc-29grb9-0 card__FeatureTitle-sc-29grb9-7 jwinrX eSxjXq"
+        >
+          The Office
+        </p>
+        <p
+          class="card__FeatureText-sc-29grb9-5 ifdRUv"
+        >
+          A motley group of office workers go through hilarious misadventures at the Scranton, Pennsylvania, branch of the Dunder Mifflin Paper Company.
+        </p>
+        <button
+          class="card__FeatureClose-sc-29grb9-8 lorGTD"
+        >
+          <svg
+            alt="Close"
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </button>
+        <div
+          class="card__Group-sc-29grb9-2 dWhOPk"
+        >
+          <div
+            class="card__Maturity-sc-29grb9-9 gGJvMp"
+          >
+            15
+          </div>
+          <p
+            class="card__FeatureText-sc-29grb9-5 ifdRUv"
+          >
+            Comedies
+          </p>
+        </div>
+        <div
+          class="player__Container-zumstd-0"
+        >
+          <button
+            class="player__Button-zumstd-3 cfkfEQ"
+          >
+            Play
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ;
+  <div
+    class="card__Container-sc-29grb9-1 kezBSj"
+  >
+    <p
+      class="card__Title-sc-29grb9-0 jwinrX"
+    >
+      Children
+    </p>
+    <div
+      class="card__Entities-sc-29grb9-12 kkpZCO"
+    >
+      <div
+        class="card__Item-sc-29grb9-13 kjzviD"
+        data-testid="peppa-pig-item-feature"
+      >
+        <img
+          class="card__Image-sc-29grb9-14 bERlgv"
+        />
+        <div
+          class="card__Meta-sc-29grb9-11 bQUeoW"
+        >
+          <p
+            class="card__SubTitle-sc-29grb9-3 knpugP"
+          >
+            Peppa Pig
+          </p>
+          <p
+            class="card__Text-sc-29grb9-4 byIjVO"
+          >
+            Peppa, an outgoing preschool pig, participates in many energetic activities. She learns something new every day and has a lot of fun with her family and friends.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card__Feature-sc-29grb9-6 dHzfGw"
+    >
+      <div
+        class="card__Content-sc-29grb9-10 fMvTeq"
+      >
+        <p
+          class="card__Title-sc-29grb9-0 card__FeatureTitle-sc-29grb9-7 jwinrX eSxjXq"
+        >
+          Peppa Pig
+        </p>
+        <p
+          class="card__FeatureText-sc-29grb9-5 ifdRUv"
+        >
+          Peppa, an outgoing preschool pig, participates in many energetic activities. She learns something new every day and has a lot of fun with her family and friends.
+        </p>
+        <button
+          class="card__FeatureClose-sc-29grb9-8 lorGTD"
+        >
+          <svg
+            alt="Close"
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </button>
+        <div
+          class="card__Group-sc-29grb9-2 dWhOPk"
+        >
+          <div
+            class="card__Maturity-sc-29grb9-9 jwYEld"
+          >
+            PG
+          </div>
+          <p
+            class="card__FeatureText-sc-29grb9-5 ifdRUv"
+          >
+            Children
+          </p>
+        </div>
+        <div
+          class="player__Container-zumstd-0"
+        >
+          <button
+            class="player__Button-zumstd-3 cfkfEQ"
+          >
+            Play
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  ;
+</div>
+`;
+
+exports[`<Card /> renders <Card /> with populated data 1`] = `
+<div
+  class="card__Group-sc-29grb9-2 jXGfoc"
+>
+  <div
+    class="card__Container-sc-29grb9-1 kezBSj"
+  >
+    <p
+      class="card__Title-sc-29grb9-0 jwinrX"
+    >
+      Comedy
+    </p>
+    <div
+      class="card__Entities-sc-29grb9-12 kkpZCO"
+    >
+      <div
+        class="card__Item-sc-29grb9-13 kjzviD"
+      >
+        <img
+          class="card__Image-sc-29grb9-14 bERlgv"
+        />
+        <div
+          class="card__Meta-sc-29grb9-11 bQUeoW"
+        >
+          <p
+            class="card__SubTitle-sc-29grb9-3 knpugP"
+          >
+            The Office
+          </p>
+          <p
+            class="card__Text-sc-29grb9-4 byIjVO"
+          >
+            A motley group of office workers go through hilarious misadventures at the Scranton, Pennsylvania, branch of the Dunder Mifflin Paper Company.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  ;
+  <div
+    class="card__Container-sc-29grb9-1 kezBSj"
+  >
+    <p
+      class="card__Title-sc-29grb9-0 jwinrX"
+    >
+      Children
+    </p>
+    <div
+      class="card__Entities-sc-29grb9-12 kkpZCO"
+    >
+      <div
+        class="card__Item-sc-29grb9-13 kjzviD"
+      >
+        <img
+          class="card__Image-sc-29grb9-14 bERlgv"
+        />
+        <div
+          class="card__Meta-sc-29grb9-11 bQUeoW"
+        >
+          <p
+            class="card__SubTitle-sc-29grb9-3 knpugP"
+          >
+            Peppa Pig
+          </p>
+          <p
+            class="card__Text-sc-29grb9-4 byIjVO"
+          >
+            Peppa, an outgoing preschool pig, participates in many energetic activities. She learns something new every day and has a lot of fun with her family and friends.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  ;
+</div>
+`;

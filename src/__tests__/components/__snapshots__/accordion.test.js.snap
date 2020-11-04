@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordion /> opens and closes accordion component 1`] = `
+<div
+  class="accordion__Container-sc-1foh516-0 gkpFBz"
+>
+  <div
+    class="accordion__Inner-sc-1foh516-4 lnzVBd"
+  >
+    <h1
+      class="accordion__Title-sc-1foh516-5 jWEHZZ"
+    >
+      Frequently Asked Questions
+    </h1>
+    <div
+      class="accordion__Item-sc-1foh516-1 hSOrbt"
+    >
+      <div
+        class="accordion__Header-sc-1foh516-2 fZdQea"
+      >
+        What is Netflix?
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      class="accordion__Item-sc-1foh516-1 hSOrbt"
+    >
+      <div
+        class="accordion__Header-sc-1foh516-2 fZdQea"
+      >
+        How much does Netflix cost?
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      class="accordion__Item-sc-1foh516-1 hSOrbt"
+    >
+      <div
+        class="accordion__Header-sc-1foh516-2 fZdQea"
+      >
+        Where can I watch?
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      class="accordion__Item-sc-1foh516-1 hSOrbt"
+    >
+      <div
+        class="accordion__Header-sc-1foh516-2 fZdQea"
+      >
+        How do I cancel?
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      class="accordion__Item-sc-1foh516-1 hSOrbt"
+    >
+      <div
+        class="accordion__Header-sc-1foh516-2 fZdQea"
+      >
+        What can I watch on Netflix?
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Accordion /> renders <Accordion /> with populated data 1`] = `
+<div
+  class="accordion__Container-sc-1foh516-0 gkpFBz"
+>
+  <div
+    class="accordion__Inner-sc-1foh516-4 lnzVBd"
+  >
+    <h1
+      class="accordion__Title-sc-1foh516-5 jWEHZZ"
+    >
+      Frequently Asked Questions
+    </h1>
+    <div
+      class="accordion__Item-sc-1foh516-1 hSOrbt"
+    >
+      <div
+        class="accordion__Header-sc-1foh516-2 fZdQea"
+      >
+        What is Netflix?
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      class="accordion__Item-sc-1foh516-1 hSOrbt"
+    >
+      <div
+        class="accordion__Header-sc-1foh516-2 fZdQea"
+      >
+        How much does Netflix cost?
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      class="accordion__Item-sc-1foh516-1 hSOrbt"
+    >
+      <div
+        class="accordion__Header-sc-1foh516-2 fZdQea"
+      >
+        Where can I watch?
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      class="accordion__Item-sc-1foh516-1 hSOrbt"
+    >
+      <div
+        class="accordion__Header-sc-1foh516-2 fZdQea"
+      >
+        How do I cancel?
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      class="accordion__Item-sc-1foh516-1 hSOrbt"
+    >
+      <div
+        class="accordion__Header-sc-1foh516-2 fZdQea"
+      >
+        What can I watch on Netflix?
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
