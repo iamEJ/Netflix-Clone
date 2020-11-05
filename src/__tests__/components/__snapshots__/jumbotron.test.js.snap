@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Jumbotron /> renders <Jumbotron /> with populated data 1`] = `
+<div
+  class="jumbotron__Container-sc-1n537l-2 frKpBX"
+>
+  <div
+    class="jumbotron__Item-sc-1n537l-0 euyKny"
+  >
+    <div
+      class="jumbotron__Inner-sc-1n537l-1 eCJPQV"
+      direction="row"
+    >
+      <div
+        class="jumbotron__Pane-sc-1n537l-3 jIAAhD"
+      >
+        <h1
+          class="jumbotron__Title-sc-1n537l-4 iwPDtO"
+        >
+          Enjoy on your TV.
+        </h1>
+        <h2
+          class="jumbotron__SubTitle-sc-1n537l-5 ehcoew"
+        >
+          Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+        </h2>
+      </div>
+      <div
+        class="jumbotron__Pane-sc-1n537l-3 jIAAhD"
+      >
+        <img
+          alt="Tiger King on Netflix"
+          class="jumbotron__Image-sc-1n537l-6 kMUlWM"
+          data-testid="1-jumbo-image"
+          src="https://i2.wp.com/tvrev.com/wp-content/uploads/2020/02/thibault-penin-AWOl7qqsffM-unsplash-scaled.jpg?fit=2560%2C1709&ssl=1"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="jumbotron__Item-sc-1n537l-0 euyKny"
+  >
+    <div
+      class="jumbotron__Inner-sc-1n537l-1 eCJPQV"
+      direction="row"
+    >
+      <div
+        class="jumbotron__Pane-sc-1n537l-3 jIAAhD"
+      >
+        <h1
+          class="jumbotron__Title-sc-1n537l-4 iwPDtO"
+        >
+          Download your programmes to watch on the go.
+        </h1>
+        <h2
+          class="jumbotron__SubTitle-sc-1n537l-5 ehcoew"
+        >
+          Save your data and watch all your favourites offline.
+        </h2>
+      </div>
+      <div
+        class="jumbotron__Pane-sc-1n537l-3 jIAAhD"
+      >
+        <img
+          alt="Watch on mobile"
+          class="jumbotron__Image-sc-1n537l-6 kMUlWM"
+          data-testid="2-jumbo-image"
+          src="https://i2.wp.com/ausdroid.net/wp-content/uploads/2019/02/netflixstreaming-e1550638744737.png?fit=864%2C665&ssl=1"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="jumbotron__Item-sc-1n537l-0 euyKny"
+  >
+    <div
+      class="jumbotron__Inner-sc-1n537l-1 eCJPQV"
+      direction="row"
+    >
+      <div
+        class="jumbotron__Pane-sc-1n537l-3 jIAAhD"
+      >
+        <h1
+          class="jumbotron__Title-sc-1n537l-4 iwPDtO"
+        >
+          Watch everywhere.
+        </h1>
+        <h2
+          class="jumbotron__SubTitle-sc-1n537l-5 ehcoew"
+        >
+          Stream unlimited films and TV programmes on your phone, tablet, laptop and TV without paying more.
+        </h2>
+      </div>
+      <div
+        class="jumbotron__Pane-sc-1n537l-3 jIAAhD"
+      >
+        <img
+          alt="Money Heist on Netflix"
+          class="jumbotron__Image-sc-1n537l-6 kMUlWM"
+          data-testid="3-jumbo-image"
+          src="https://i0.wp.com/www.globalvillagespace.com/wp-content/uploads/2020/05/Money-Heist-creator-launches-all-new-Netflix-Show-696x365.jpg"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

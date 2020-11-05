@@ -58,7 +58,6 @@ exports[`<Card /> renders <Card /> and toggles card feature 1`] = `
           class="card__FeatureClose-sc-29grb9-8 lorGTD"
         >
           <svg
-            alt="Close"
             aria-hidden="true"
             class="MuiSvgIcon-root"
             focusable="false"
@@ -150,7 +149,6 @@ exports[`<Card /> renders <Card /> and toggles card feature 1`] = `
           class="card__FeatureClose-sc-29grb9-8 lorGTD"
         >
           <svg
-            alt="Close"
             aria-hidden="true"
             class="MuiSvgIcon-root"
             focusable="false"
