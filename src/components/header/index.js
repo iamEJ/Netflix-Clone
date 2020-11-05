@@ -20,7 +20,13 @@ import { Link as ReactRouterLink } from "react-router-dom";
 import SearchIcon from "@material-ui/icons/Search";
 
 export default function Header({ bg = true, children, ...restProps }) {
-  return bg ? <Background {...restProps}>{children}</Background> : children;
+  return bg ? (
+    <Background data-testid="header-bg" {...restProps}>
+      {children}
+    </Background>
+  ) : (
+    children
+  );
 }
 
 Header.Frame = function HeaderFrame({ children, ...restProps }) {
@@ -61,12 +67,14 @@ Header.Search = function HeaderSearch({
     <Search {...restProps}>
       <SearchIcon
         onClick={() => setSearchActive((searchActive) => !searchActive)}
+        data-testid="search-click"
       />
       <SearchInput
         value={searchTerm}
         onChange={({ target }) => setSearchTerm(target.value)}
         placeholder="Search films and series"
         active={searchActive}
+        data-testid="search-input"
       />
     </Search>
   );

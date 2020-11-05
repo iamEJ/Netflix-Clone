@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders <Header /> with a background 1`] = `
+<div
+  class="header__Background-sc-76c779-1 bOMumT"
+  data-testid="header-bg"
+>
+  <div
+    class="header__Container-sc-76c779-0 dIxYqv"
+  >
+    <link>
+      <img
+        alt="Netflix"
+        class="header__Logo-sc-76c779-2 hhAqbF"
+        src="https://www.brandvia.com/wp-content/uploads/2019/04/Netflix-Logo.png"
+      />
+    </link>
+    <p
+      class="header__TextLink-sc-76c779-5 lfTDqe"
+    >
+      Hello. I am a link
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Header /> renders <Header /> without a background 1`] = `
+<div
+  class="header__Container-sc-76c779-0 dIxYqv"
+>
+  <link>
+    <img
+      alt="Netflix"
+      class="header__Logo-sc-76c779-2 hhAqbF"
+      src="https://www.brandvia.com/wp-content/uploads/2019/04/Netflix-Logo.png"
+    />
+  </link>
+  <link
+    class="header__Button-sc-76c779-11 fRTwVu"
+  >
+    Sign In
+  </link>
+  <p
+    class="header__TextLink-sc-76c779-5 kZtOgy"
+  >
+    Hello. I am a link
+  </p>
+</div>
+`;
+
+exports[`<Header /> renders all the <Header /> with a background 1`] = `
+<div
+  class="header__Background-sc-76c779-1 eDJeWY"
+  data-testid="header-bg"
+  src="joker1"
+>
+  <div
+    class="header__Container-sc-76c779-0 dIxYqv"
+  >
+    <div
+      class="header__Group-sc-76c779-3 gXcYjd"
+    >
+      <link>
+        <img
+          alt="Netflix"
+          class="header__Logo-sc-76c779-2 hhAqbF"
+          src="https://www.brandvia.com/wp-content/uploads/2019/04/Netflix-Logo.png"
+        />
+      </link>
+      <p
+        class="header__TextLink-sc-76c779-5 kZtOgy"
+      >
+        Series
+      </p>
+      <p
+        class="header__TextLink-sc-76c779-5 kZtOgy"
+      >
+        Films
+      </p>
+    </div>
+    <div
+      class="header__Group-sc-76c779-3 gXcYjd"
+    >
+      <div
+        class="header__Search-sc-76c779-7 kyExve"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          data-testid="search-click"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          />
+        </svg>
+        <input
+          class="header__SearchInput-sc-76c779-8 jawpLf"
+          data-testid="search-input"
+          placeholder="Search films and series"
+          value="Joker"
+        />
+      </div>
+      <div
+        class="header__Profile-sc-76c779-10 cpuvHD"
+      >
+        <button
+          class="header__Picture-sc-76c779-4 bKsyFB"
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/64623a33850498.56ba69ac2a6f7.png"
+        />
+        <div
+          class="header__Dropdown-sc-76c779-6 gbIgHi"
+        >
+          <div
+            class="header__Group-sc-76c779-3 gXcYjd"
+          >
+            <button
+              class="header__Picture-sc-76c779-4 bKsyFB"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/64623a33850498.56ba69ac2a6f7.png"
+            />
+            <p
+              class="header__TextLink-sc-76c779-5 kZtOgy"
+            >
+              Jenny
+            </p>
+          </div>
+          <div
+            class="header__Group-sc-76c779-3 gXcYjd"
+          >
+            <p
+              class="header__TextLink-sc-76c779-5 kZtOgy"
+            >
+              Logout
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="header__Container-sc-76c779-0 header__Feature-sc-76c779-12 dIxYqv huvJcb"
+  >
+    <h2
+      class="header__FeatureCallOut-sc-76c779-14 dfWxBp"
+    >
+      Watch Now: The Joker
+    </h2>
+    <p
+      class="header__Text-sc-76c779-13 vfhzT"
+    >
+      In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society.
+    </p>
+    <button
+      class="header__PlayButton-sc-76c779-9 boLqgm"
+    >
+      Play
+       
+    </button>
+  </div>
+</div>
+`;

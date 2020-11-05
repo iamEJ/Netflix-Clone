@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form /> renders <Form /> with populated data 1`] = `
+<div
+  class="form__Container-rl5qdm-0 etyNXn"
+>
+  <h1
+    class="form__Title-rl5qdm-3 irCIPh"
+  >
+    Sign In Now
+  </h1>
+  <div
+    class="form__Error-rl5qdm-1 ikLlWu"
+  />
+  <form
+    class="form__Base-rl5qdm-2 khUISa"
+  >
+    <input
+      class="form__Input-rl5qdm-7 emWTFb"
+      placeholder="Enter email address"
+      type="email"
+    />
+    <input
+      class="form__Input-rl5qdm-7 emWTFb"
+      placeholder="Enter password"
+      type="password"
+    />
+    <button
+      class="form__Submit-rl5qdm-8 iYbwCy"
+      disabled=""
+      type="submit"
+    >
+      Sign In
+    </button>
+  </form>
+  <p
+    class="form__Text-rl5qdm-4 gWRWZU"
+  >
+    New to Netflix? 
+    <link
+      class="form__Link-rl5qdm-6 bQqFRm"
+      to="/signup"
+    >
+      Sign up now.
+    </link>
+  </p>
+  <p
+    class="form__TextSmall-rl5qdm-5 cIzopo"
+  >
+    This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
+  </p>
+</div>
+`;

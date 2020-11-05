@@ -2,13 +2,16 @@ import React from "react";
 import { render } from "@testing-library/react";
 import Form from "../../components/form";
 
-jest.mock("react-router-dom");
+jest.mock("react-router-dom", () => ({
+  Link: "Link",
+  Route: ({ children, path }) => children({ match: path === "/somewhere" }),
+}));
 
 describe("<Form />", () => {
   it("renders <Form /> with populated data", () => {
     const { container, getByText, getByPlaceholderText } = render(
       <Form>
-        <Form.Title>Sign In</Form.Title>
+        <Form.Title>Sign In Now</Form.Title>
         <Form.Error></Form.Error>
         <Form.Base>
           <Form.Input
@@ -39,7 +42,7 @@ describe("<Form />", () => {
         "This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more."
       )
     ).toBeTruthy();
-    expect(getByText("Sign Up Now.")).toBeTruthy();
+    expect(getByText("Sign In Now")).toBeTruthy();
     expect(getByText("Sign In")).toBeTruthy();
     expect(getByText("Sign In").disabled).toBeTruthy();
     expect(getByPlaceholderText("Enter email address")).toBeTruthy();
